@@ -24,7 +24,7 @@ feature 'User can search for' do
 
     expect(page).to have_css('.food', count: 50)
     within(first('.food')) do
-      expect(page).to have_css('.gtin_upc_code')
+      expect(page).to have_css('.food_code')
       expect(page).to have_css('.description')
       expect(page).to have_css('.brand_owner')
       expect(page).to have_css('.ingredients')

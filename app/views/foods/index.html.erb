@@ -1,8 +1,8 @@
 <h1> Search Results: <%= @foods.count %></h1>
 <% @foods.each do |food| %>
   <ul class='food'>
-    <p class='gtin_upc_code'>
-      <%= food.gtin_upc_code %>
+    <p class='food_code'>
+      <%= food.food_code %>
     </p>
     <p class='description'>
       <%= food.description %>
