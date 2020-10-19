@@ -7,7 +7,7 @@ attr_reader :food_code,
     @food_code = food_data[:foodCode]
     @description = food_data[:description]
     @brand_owner = food_data[:dataType]
-    @ingredients = food_data[:ingredients]
+    @ingredients = food_data[:foodNutrients]
   end
 
 end
